@@ -1,0 +1,63 @@
+# $Id: misc.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
+#
+# LANGUAGE translation of Drupal (misc)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+#  drupal.js,v 1.41.2.3 2008/06/25 09:06:57 goba
+#  tabledrag.js,v 1.13.2.5 2009/06/18 12:24:24 goba
+#  tableselect.js,v 1.8 2007/11/19 12:15:16 goba
+#  teaser.js,v 1.12.2.1 2009/05/20 11:50:54 goba
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: misc/drupal.js:0
+msgid "Unspecified error"
+msgstr ""
+
+#: misc/drupal.js:0
+msgid "An error occurred. \n@uri\n@text"
+msgstr ""
+
+#: misc/drupal.js:0
+msgid "An error occurred. \n@uri\n(no information available)."
+msgstr ""
+
+#: misc/drupal.js:0
+msgid "An HTTP error @status occurred. \n@uri"
+msgstr ""
+
+#: misc/tabledrag.js:0
+msgid "Drag to re-order"
+msgstr ""
+
+#: misc/tabledrag.js:0
+msgid "Changes made in this table will not be saved until the form is submitted."
+msgstr ""
+
+#: misc/tableselect.js:0
+msgid "Select all rows in this table"
+msgstr ""
+
+#: misc/tableselect.js:0
+msgid "Deselect all rows in this table"
+msgstr ""
+
+#: misc/teaser.js:0;0
+msgid "Split summary at cursor"
+msgstr ""
+
+#: misc/teaser.js:0;0
+msgid "Join summary"
+msgstr ""
+

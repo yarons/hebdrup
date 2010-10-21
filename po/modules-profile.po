@@ -1,0 +1,311 @@
+# $Id: modules-profile.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
+# LANGUAGE translation of Drupal (modules-profile)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+# profile.admin.inc,v 1.8.2.1 2008/10/16 12:43:08 goba
+# profile.pages.inc,v 1.2 2007/12/08 14:06:22 goba
+# profile.module,v 1.236.2.3 2009/01/12 10:09:19 goba
+# Ddorda <ddorda@ubuntu.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2010-10-21 15:57+0300\n"
+"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
+"Language-Team: Gezer\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: modules/profile/profile.admin.inc:55
+msgid "Add new field"
+msgstr "הוספת שדה חדש"
+
+#: modules/profile/profile.admin.inc:82
+msgid "Profile fields have been updated."
+msgstr "שדות פרופיל עודכנו."
+
+#: modules/profile/profile.admin.inc:115
+msgid "No fields in this category. If this category remains empty when saved, it will be removed."
+msgstr "אין שדות בקטגוריה זו. אם קטגוריה זו תישאר ריקה כשתישמר היא תימחק."
+
+#: modules/profile/profile.admin.inc:144
+msgid "No fields available."
+msgstr "אין שדות זמינים."
+
+#: modules/profile/profile.admin.inc:178
+msgid "edit %title"
+msgstr "עריכת %title"
+
+#: modules/profile/profile.admin.inc:196
+msgid "add new %type"
+msgstr ""
+
+#: modules/profile/profile.admin.inc:211
+msgid "Field settings"
+msgstr "הגדרות שדה"
+
+#: modules/profile/profile.admin.inc:217
+msgid "The category the new field should be part of. Categories are used to group fields logically. An example category is \"Personal information\"."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:223
+msgid "The title of the new field. The title will be shown to the user. An example title is \"Favorite color\"."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:227
+msgid "Form name"
+msgstr "שם טופס"
+
+#: modules/profile/profile.admin.inc:229
+msgid "The name of the field. The form name is not shown to the user but used internally in the HTML code and URLs.\nUnless you know what you are doing, it is highly recommended that you prefix the form name with <code>profile_</code> to avoid name clashes with other fields. Spaces or any other special characters except dash (-) and underscore (_) are not allowed. An example name is \"profile_favorite_color\" or perhaps just \"profile_color\"."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:234
+msgid "Explanation"
+msgstr "הסבר"
+
+#: modules/profile/profile.admin.inc:236
+msgid "An optional explanation to go with the new field. The explanation will be shown to the user."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:240
+msgid "Selection options"
+msgstr "אפשרויות בחירה"
+
+#: modules/profile/profile.admin.inc:242
+msgid "A list of all options. Put each option on a separate line. Example options are \"red\", \"blue\", \"green\", etc."
+msgstr ""
+"רשימת כל האפשרויות. יש לשים כל אפשרות בשורה נפרדת. אפשרויות לדוגמה: \"אדום\", "
+"\"כחול\", \"ירוק\" וכו'"
+
+#: modules/profile/profile.admin.inc:246
+msgid "Visibility"
+msgstr "תצוגה"
+
+#: modules/profile/profile.admin.inc:248
+#, fuzzy
+msgid "Hidden profile field, only accessible by administrators, modules and themes."
+msgstr "שדה פרופיל נסתר, זמין רק למתפעלים, מודולים ועיצובים"
+
+#: modules/profile/profile.admin.inc:248
+#, fuzzy
+msgid "Private field, content only available to privileged users."
+msgstr "שדה פרטי, התוכן זמין רק למשתמשים מורשים."
+
+#: modules/profile/profile.admin.inc:248
+#, fuzzy
+msgid "Public field, content shown on profile page but not used on member list pages."
+msgstr "שדה פומבי, התוכן מוצג בדף הפרופיל אך לא בדפי רשימות החברים."
+
+#: modules/profile/profile.admin.inc:248
+#, fuzzy
+msgid "Public field, content shown on profile page and on member list pages."
+msgstr "שדה פומבי, התוכן מוצג בדף הפרופיל ובדפי רשימות החברים."
+
+#: modules/profile/profile.admin.inc:252;259
+msgid "Page title"
+msgstr "כותרת דף"
+
+#: modules/profile/profile.admin.inc:254
+msgid "To enable browsing this field by value, enter a title for the resulting page. The word <code>%value</code> will be substituted with the corresponding value. An example page title is \"People whose favorite color is %value\". This is only applicable for a public field."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:261
+msgid "To enable browsing this field by value, enter a title for the resulting page. An example page title is \"People who are employed\". This is only applicable for a public field."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:267
+msgid "The weights define the order in which the form fields are shown. Lighter fields \"float up\" towards the top of the category."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:270
+msgid "Form will auto-complete while user is typing."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:272
+msgid "For security, auto-complete will be disabled if the user does not have access to user profiles."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:275
+msgid "The user must enter a value."
+msgstr "המשתמש חייב להזין שדה"
+
+#: modules/profile/profile.admin.inc:279
+msgid "Visible in user registration form."
+msgstr "גלוי בטופס הרשמת המשתמש"
+
+#: modules/profile/profile.admin.inc:283
+msgid "Save field"
+msgstr "שמירת שדה"
+
+#: modules/profile/profile.admin.inc:294
+msgid "The specified form name contains one or more illegal characters. Spaces or any other special characters except dash (-) and underscore (_) are not allowed."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:298
+msgid "The specified form name is reserved for use by Drupal."
+msgstr "שם הטופס שצוין שמור לשימוש דרופל."
+
+#: modules/profile/profile.admin.inc:305
+msgid "The specified category name is reserved for use by Drupal."
+msgstr "שם הקטגוריה שצוין שמור לשימוש דרופל."
+
+#: modules/profile/profile.admin.inc:317
+msgid "The specified title is already in use."
+msgstr "הכותרת שצוינה כבר בשימוש."
+
+#: modules/profile/profile.admin.inc:320
+msgid "The specified name is already in use."
+msgstr "השם שצוין כבר בשימוש."
+
+#: modules/profile/profile.admin.inc:324
+msgid "A hidden field cannot be required."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:327
+msgid "A hidden field cannot be set to visible on the user registration form."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:345
+msgid "The field has been created."
+msgstr "השדה נוצר."
+
+#: modules/profile/profile.admin.inc:351
+msgid "The field has been updated."
+msgstr "השדה עודכן."
+
+#: modules/profile/profile.admin.inc:373
+msgid "Are you sure you want to delete the field %field?"
+msgstr "האם ברצונך למחוק את השדה %field?"
+
+#: modules/profile/profile.admin.inc:374
+msgid "This action cannot be undone. If users have entered values into this field in their profile, these entries will also be deleted. If you want to keep the user-entered data, instead of deleting the field you may wish to <a href=\"@edit-field\">edit this field</a> and change it to a hidden profile field so that it may only be accessed by administrators."
+msgstr ""
+
+#: modules/profile/profile.admin.inc:387
+msgid "The field %field has been deleted."
+msgstr "השדה %field נמחק."
+
+#: modules/profile/profile.admin.inc:346;388
+msgid "profile"
+msgstr "פרופיל"
+
+#: modules/profile/profile.admin.inc:346
+msgid "Profile field %field added under category %category."
+msgstr "שדה הפרופיל %field נוסף תחת הקטגוריה %category."
+
+#: modules/profile/profile.admin.inc:388
+msgid "Profile field %field deleted."
+msgstr "שדה הפרופיל %field נמחק."
+
+#: modules/profile/profile.pages.inc:102 modules/profile/profile.module:80
+msgid "User list"
+msgstr "רשימת משתמשים"
+
+#: modules/profile/profile.module:35
+msgid "The profile module allows custom fields (such as country, full name, or age) to be defined and displayed in the <em>My Account</em> section. This permits users of a site to share more information about themselves, and can help community-based sites organize users around specific information."
+msgstr ""
+
+#: modules/profile/profile.module:36
+msgid "The following types of fields can be added to a user profile:"
+msgstr "סוגי השדות הבאים יכולים להיווסף לפרופיל משתמש."
+
+#: modules/profile/profile.module:37;545
+msgid "single-line textfield"
+msgstr "שדה טקסט חד־שורה"
+
+#: modules/profile/profile.module:38;546
+msgid "multi-line textfield"
+msgstr "שדה טקסט מרובה שורות"
+
+#: modules/profile/profile.module:39;547
+msgid "checkbox"
+msgstr "תיבת סימון"
+
+#: modules/profile/profile.module:40;548
+msgid "list selection"
+msgstr ""
+
+#: modules/profile/profile.module:41;549
+msgid "freeform list"
+msgstr ""
+
+#: modules/profile/profile.module:43;551
+msgid "date"
+msgstr "תאריך"
+
+#: modules/profile/profile.module:44
+msgid "For more information, see the online handbook entry for <a href=\"@profile\">Profile module</a>."
+msgstr ""
+
+#: modules/profile/profile.module:47
+msgid "This page displays a list of the existing custom profile fields to be displayed on a user's <em>My Account</em> page. To provide structure, similar or related fields may be placed inside a category. To add a new category (or edit an existing one), edit a profile field and provide a new category name. To change the category of a field or the order of fields within a category, grab a drag-and-drop handle under the Title column and drag the field to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+
+#: modules/profile/profile.module:141
+msgid "Author information"
+msgstr "מידע מחבר"
+
+#: modules/profile/profile.module:152
+msgid "Link to full user profile"
+msgstr "קישור לפרופיל משתמש מלא"
+
+#: modules/profile/profile.module:154
+msgid "Profile fields to display"
+msgstr "שדות פרופיל לתצוגה"
+
+#: modules/profile/profile.module:157
+msgid "Select which profile fields you wish to display in the block. Only fields designated as public in the <a href=\"@profile-admin\">profile field configuration</a> are available."
+msgstr ""
+
+#: modules/profile/profile.module:189
+msgid "View full user profile"
+msgstr "צפייה בפרופיל משתמש מלא"
+
+#: modules/profile/profile.module:194
+msgid "About %name"
+msgstr "על אודות %name"
+
+#: modules/profile/profile.module:337
+msgid "Put each item on a separate line or separate them by commas. No HTML allowed."
+msgstr "יש לשים כל פריט בשורה נפרדת או להפריד אותם ע\"י פסיקים. HTML מנוטרל."
+
+#: modules/profile/profile.module:439
+msgid "The value provided for %field is not a valid URL."
+msgstr "הערך שסופק עבור %field אינו כתובת תקינה."
+
+#: modules/profile/profile.module:444
+msgid "The field %field is required."
+msgstr "השדה %field נדרש."
+
+#: modules/profile/profile.module:87
+msgid "Profiles"
+msgstr "פרופילים"
+
+#: modules/profile/profile.module:88
+msgid "Create customizable fields for your users."
+msgstr "יצירת שדות מותאמים למשתמשים שלך."
+
+#: modules/profile/profile.module:95
+msgid "Add field"
+msgstr "הוספת שדה"
+
+#: modules/profile/profile.module:103
+msgid "Profile category autocomplete"
+msgstr "השלמה אוטומטית לקטגורית פרופיל"
+
+#: modules/profile/profile.module:110
+msgid "Edit field"
+msgstr "עריכת שדה"
+
+#: modules/profile/profile.module:118
+msgid "Delete field"
+msgstr "מחיקת שדה"
+
+#: modules/profile/profile.module:126
+msgid "Profile autocomplete"
+msgstr "השלמה אוטומטית לפרופיל"

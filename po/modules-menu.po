@@ -1,0 +1,285 @@
+# $Id: modules-menu.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
+# LANGUAGE translation of Drupal (modules-menu)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+# menu.admin.inc,v 1.26.2.4 2009/02/25 13:15:40 goba
+# menu.module,v 1.157.2.6 2009/04/27 12:50:13 goba
+# menu.install,v 1.9.2.1 2009/01/06 15:46:37 goba
+# Ddorda <ddorda@ubuntu.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2010-10-21 14:50+0300\n"
+"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
+"Language-Team: Gezer\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: modules/menu/menu.admin.inc:54
+msgid "There are no menu items yet."
+msgstr "אין פריטים בתפריט עדיין."
+
+#: modules/menu/menu.admin.inc:72 modules/menu/menu.module:245
+msgid "disabled"
+msgstr "מנוטרל"
+
+#: modules/menu/menu.admin.inc:104
+msgid "reset"
+msgstr "איתחול"
+
+#: modules/menu/menu.admin.inc:175
+msgid "Menu item"
+msgstr "פריט תפריט"
+
+#: modules/menu/menu.admin.inc:177;299
+msgid "Expanded"
+msgstr "מורחב"
+
+#: modules/menu/menu.admin.inc:230 modules/menu/menu.module:367
+msgid "Menu settings"
+msgstr "הגדרות תפריט"
+
+#: modules/menu/menu.admin.inc:260
+msgid "The path this menu item links to. This can be an internal Drupal path such as %add-node or an external URL such as %drupal. Enter %front to link to the front page."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:279 modules/menu/menu.module:394
+msgid "Menu link title"
+msgstr "כותרת קישור תפריט"
+
+#: modules/menu/menu.admin.inc:281
+msgid "The link text corresponding to this item that should appear in the menu."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:289
+msgid "The description displayed when hovering over a menu item."
+msgstr "התיאור מוצג כאשר עוברים מעל פריט התפריט."
+
+#: modules/menu/menu.admin.inc:295
+msgid "Menu items that are not enabled will not be listed in any menu."
+msgstr "פריטי תפריט שאינם פעילים לא יוצגו בשום תפריט."
+
+#: modules/menu/menu.admin.inc:301
+msgid "If selected and this menu item has children, the menu will always appear expanded."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:315 modules/menu/menu.module:410
+msgid "The maximum depth for an item and all its children is fixed at !maxdepth. Some menu items may not be available as parents if selecting them would exceed this limit."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:323 modules/menu/menu.module:420
+msgid "Optional. In the menu, the heavier items will sink and the lighter items will be positioned nearer the top."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:379 modules/menu/menu.module:311
+msgid "There was an error saving the menu link."
+msgstr "התרחשה שגיאה בעת שמירת קישור התפריט"
+
+#: modules/menu/menu.admin.inc:403
+msgid "Menu name"
+msgstr "שם התפריט"
+
+#: modules/menu/menu.admin.inc:405
+msgid "The machine-readable name of this menu. This text will be used for constructing the URL of the <em>menu overview</em> page for this menu. This name must contain only lowercase letters, numbers, and hyphens, and must be unique."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:460
+msgid "Are you sure you want to delete the custom menu %title?"
+msgstr "האם ברצונך למחוק את התפריט המותאם %title?"
+
+#: modules/menu/menu.admin.inc:492
+msgid "The custom menu %title has been deleted."
+msgstr "התפריט המותאם %title נמחק."
+
+#: modules/menu/menu.admin.inc:502
+msgid "The menu name may only consist of lowercase letters, numbers, and hyphens."
+msgstr "שם התפריט יכול להכיל רק אותיות לועזיות קטנות, מספרים ומקפים."
+
+#: modules/menu/menu.admin.inc:512
+msgid "The menu already exists."
+msgstr "התפריט כבר קיים."
+
+#: modules/menu/menu.admin.inc:564
+msgid "Are you sure you want to delete the custom menu item %item?"
+msgstr "האם ברצונך למחוק את התפריט המותאם %item?"
+
+#: modules/menu/menu.admin.inc:574
+msgid "The menu item %title has been deleted."
+msgstr "פריט התפריט %title נמחק."
+
+#: modules/menu/menu.admin.inc:584
+msgid "Are you sure you want to reset the item %item to its default values?"
+msgstr "האם ברצונך לאתחל את הפריט %item לערכי בררת המחדל שלו?"
+
+#: modules/menu/menu.admin.inc:584
+msgid "Any customizations will be lost. This action cannot be undone."
+msgstr "כל השבה תאבד. לא ניתן לבטל פעולה זו."
+
+#: modules/menu/menu.admin.inc:593
+msgid "The menu item was reset to its default settings."
+msgstr "פריט התפריט יאותחל להגדרות בררת המחדל שלו."
+
+#: modules/menu/menu.admin.inc:603
+msgid "The menu module allows on-the-fly creation of menu links in the content authoring forms. The following option sets the default menu in which a new link will be added."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:609
+msgid "Default menu for content"
+msgstr "תפריט בררת המחדל לתוכן"
+
+#: modules/menu/menu.admin.inc:612
+msgid "Choose the menu to be the default in the menu options in the content authoring form."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:616
+msgid "No primary links"
+msgstr "אין קישורים ראשיים"
+
+#: modules/menu/menu.admin.inc:619
+msgid "Source for the primary links"
+msgstr "מקור לקישורים הראשיים"
+
+#: modules/menu/menu.admin.inc:623
+msgid "Select what should be displayed as the primary links."
+msgstr "בחירת מה שיוצג בקישורים הראשיים."
+
+#: modules/menu/menu.admin.inc:626
+msgid "No secondary links"
+msgstr "אין קישורים משניים"
+
+#: modules/menu/menu.admin.inc:629
+msgid "Source for the secondary links"
+msgstr "מקור לקישורים המשניים"
+
+#: modules/menu/menu.admin.inc:633
+msgid "Select what should be displayed as the secondary links. You can choose the same menu for secondary links as for primary links (currently %primary). If you do this, the children of the active primary menu link will be displayed as secondary links."
+msgstr ""
+
+#: modules/menu/menu.admin.inc:493
+msgid "Deleted custom menu %title and all its menu items."
+msgstr "מחיקת התפריט המותאם %title וכל פריטי התפריט."
+
+#: modules/menu/menu.admin.inc:575
+msgid "Deleted menu item %title."
+msgstr "פריט התפריט %title נמחק."
+
+#: modules/menu/menu.admin.inc:457
+msgid "<strong>Warning:</strong> There is currently 1 menu item in %title. It will be deleted (system-defined items will be reset)."
+msgid_plural "<strong>Warning:</strong> There are currently @count menu items in %title. They will be deleted (system-defined items will be reset)."
+msgstr[0] ""
+"<strong>אזהרה:</strong> יש כרגע פריט 1 בתפריט %title. הפריט יימחק (פריטים "
+"המוגדרים ע\"י המערכת יאותחלו)."
+msgstr[1] ""
+"<strong>אזהרה:</strong> ישנם כרגע @count פריטים בתפריט %title. הפריטים "
+"יימחקו (פריטים המוגדרים ע\"י המערכת יאותחלו)."
+
+#: modules/menu/menu.admin.inc:505
+msgid "The menu name can't be longer than 1 character."
+msgid_plural "The menu name can't be longer than @count characters."
+msgstr[0] "שם התפריט לא יכול להיות ארוך מתו 1."
+msgstr[1] "שם התפריט לא יכול להיות ארוך מ־@count תווים."
+
+#: modules/menu/menu.module:21
+msgid "The menu module provides an interface to control and customize Drupal's powerful menu system. Menus are a hierarchical collection of links, or menu items, used to navigate a website, and are positioned and displayed using Drupal's flexible block system. By default, three menus are created during installation: <em>Navigation</em>, <em>Primary links</em>, and <em>Secondary links</em>. The <em>Navigation</em> menu contains most links necessary for working with and navigating your site, and is often displayed in either the left or right sidebar. Most Drupal themes also provide support for <em>Primary links</em> and <em>Secondary links</em>, by displaying them in either the header or footer of each page. By default, <em>Primary links</em> and <em>Secondary links</em> contain no menu items but may be configured to contain custom menu items specific to your site."
+msgstr ""
+
+#: modules/menu/menu.module:22
+msgid "The <a href=\"@menu\">menus page</a> displays all menus currently available on your site. Select a menu from this list to add or edit a menu item, or to rearrange items within the menu. Create new menus using the <a href=\"@add-menu\">add menu page</a> (the block containing a new menu must also be enabled on the <a href=\"@blocks\">blocks administration page</a>)."
+msgstr ""
+
+#: modules/menu/menu.module:23
+msgid "For more information, see the online handbook entry for <a href=\"@menu\">Menu module</a>."
+msgstr ""
+
+#: modules/menu/menu.module:26
+msgid "Menus are a collection of links (menu items) used to navigate a website. The menus currently available on your site are displayed below. Select a menu from this list to manage its menu items."
+msgstr ""
+
+#: modules/menu/menu.module:28
+msgid "Enter the name for your new menu. Remember to enable the newly created block in the <a href=\"@blocks\">blocks administration page</a>."
+msgstr ""
+
+#: modules/menu/menu.module:30
+msgid "To rearrange menu items, grab a drag-and-drop handle under the <em>Menu item</em> column and drag the items (or group of items) to a new location in the list. (Grab a handle by clicking and holding the mouse while hovering over a handle icon.) Remember that your changes will not be saved until you click the <em>Save configuration</em> button at the bottom of the page."
+msgstr ""
+
+#: modules/menu/menu.module:32
+msgid "Enter the title and path for your new menu item."
+msgstr "יש להכניס את הכותרת והכתובת עבור פריט התפריט החדש."
+
+#: modules/menu/menu.module:381
+msgid "Delete this menu item."
+msgstr "מחיקת פריט תפריט זה."
+
+#: modules/menu/menu.module:396
+msgid "The link text corresponding to this item that should appear in the menu. Leave blank if you do not wish to add this post to the menu."
+msgstr ""
+
+#: modules/menu/menu.module:40
+msgid "administer menu"
+msgstr "תפעול חיפוש"
+
+#: modules/menu/menu.module:48
+msgid "Menus"
+msgstr "תפריטים"
+
+#: modules/menu/menu.module:49
+msgid "Control your site's navigation menu, primary links and secondary links. as well as rename and reorganize menu items."
+msgstr ""
+
+#: modules/menu/menu.module:57
+msgid "List menus"
+msgstr ""
+
+#: modules/menu/menu.module:63
+msgid "Add menu"
+msgstr "הוספת תפריט"
+
+#: modules/menu/menu.module:80
+msgid "Customize menu"
+msgstr "התאמת תפריט"
+
+#: modules/menu/menu.module:90
+msgid "List items"
+msgstr ""
+
+#: modules/menu/menu.module:96
+msgid "Add item"
+msgstr "הוספת פריט"
+
+#: modules/menu/menu.module:104
+msgid "Edit menu"
+msgstr "עריכת תפריט"
+
+#: modules/menu/menu.module:112
+msgid "Delete menu"
+msgstr "מחיקת תפריט"
+
+#: modules/menu/menu.module:120
+msgid "Edit menu item"
+msgstr "עריכת פריט תפריט"
+
+#: modules/menu/menu.module:128
+msgid "Reset menu item"
+msgstr "אתחול פריט תפריט"
+
+#: modules/menu/menu.module:136
+msgid "Delete menu item"
+msgstr "מחיקת פריט תפריט"
+
+#: (duplicate) modules/menu/menu.install:12 
+msgid "The navigation menu is provided by Drupal and is the main interactive menu for any site. It is usually the only menu that contains personalized links for authenticated users, and is often not even visible to anonymous users."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:13 
+msgid "Primary links are often used at the theme layer to show the major sections of a site. A typical representation for primary links would be tabs along the top."
+msgstr ""
+
+#: (duplicate) modules/menu/menu.install:14 
+msgid "Secondary links are often used for pages like legal notices, contact details, and other secondary navigation items that play a lesser role than primary links"
+msgstr ""

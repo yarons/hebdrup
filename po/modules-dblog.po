@@ -1,0 +1,96 @@
+# $Id: modules-dblog.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
+# LANGUAGE translation of Drupal (modules-dblog)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+# dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
+# dblog.module,v 1.21.2.2 2008/04/09 21:11:46 goba
+# Ddorda <ddorda@ubuntu.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2010-11-03 15:09+0300\n"
+"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
+"Language-Team: Gezer\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: modules/dblog/dblog.admin.inc:18
+msgid "Discard log entries above the following row limit"
+msgstr ""
+
+#: modules/dblog/dblog.admin.inc:21
+msgid "The maximum number of rows to keep in the database log. Older entries will be automatically discarded. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
+msgstr ""
+
+#: modules/dblog/dblog.admin.inc:91;119
+msgid "No log messages available."
+msgstr "אין הודעות תיעוד זמינות."
+
+#: modules/dblog/dblog.admin.inc:107
+msgid "Count"
+msgstr "מונה"
+
+#: modules/dblog/dblog.admin.inc:150
+msgid "Location"
+msgstr "מיקום"
+
+#: modules/dblog/dblog.admin.inc:162;230
+msgid "Severity"
+msgstr ""
+
+#: modules/dblog/dblog.admin.inc:270
+msgid "Filter log messages"
+msgstr "סינון הודעות תיעוד"
+
+#: modules/dblog/dblog.admin.inc:307
+msgid "You must select something to filter by."
+msgstr ""
+
+#: modules/dblog/dblog.module:21
+msgid "The dblog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time. This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
+msgstr ""
+
+#: modules/dblog/dblog.module:22
+msgid "The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the dblog report on a regular basis to ensure their site is working properly."
+msgstr ""
+
+#: modules/dblog/dblog.module:23
+msgid "For more information, see the online handbook entry for <a href=\"@dblog\">Dblog module</a>."
+msgstr ""
+
+#: modules/dblog/dblog.module:26
+msgid "The dblog module monitors your website, capturing system events in a log to be reviewed by an authorized individual at a later time. The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the dblog report on a regular basis as it is often the only way to tell what is going on."
+msgstr ""
+
+#: modules/dblog/dblog.module:47
+msgid "Settings for logging to the Drupal database logs. This is the most common method for small to medium sites on shared hosting. The logs are viewable from the admin pages."
+msgstr ""
+
+#: modules/dblog/dblog.module:55
+msgid "Recent log entries"
+msgstr "רשומות תיעוד אחרונות"
+
+#: modules/dblog/dblog.module:56
+msgid "View events that have recently been logged."
+msgstr "צפייה באירועים האחרונים שתועדו לאחרונה."
+
+#: modules/dblog/dblog.module:63
+msgid "Top 'page not found' errors"
+msgstr ""
+
+#: modules/dblog/dblog.module:64
+msgid "View 'page not found' errors (404s)."
+msgstr ""
+
+#: modules/dblog/dblog.module:71
+msgid "Top 'access denied' errors"
+msgstr ""
+
+#: modules/dblog/dblog.module:72
+msgid "View 'access denied' errors (403s)."
+msgstr "צפייה בשגיאות 'הגישה נדחתה' (403)."

@@ -1,0 +1,131 @@
+# $Id: modules-openid.pot,v 1.1.2.13 2009/07/19 16:23:43 killes Exp $
+# LANGUAGE translation of Drupal (modules-openid)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+# openid.inc,v 1.8 2008/01/30 22:11:22 goba
+# openid.pages.inc,v 1.5.2.1 2008/07/09 21:48:28 goba
+# openid.module,v 1.19.2.6 2009/06/10 14:05:23 goba
+# Ddorda <ddorda@ubuntu.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2009-07-19 18:21+0200\n"
+"PO-Revision-Date: 2010-11-03 14:29+0300\n"
+"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
+"Language-Team: Gezer\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: modules/openid/openid.inc:44
+msgid "OpenID redirect"
+msgstr ""
+
+#: modules/openid/openid.inc:67
+msgid "Send"
+msgstr "שליחה"
+
+#: modules/openid/openid.pages.inc:18
+msgid "OpenID login failed."
+msgstr "התחברות OpenID נכשלה."
+
+#: modules/openid/openid.pages.inc:21
+msgid "OpenID login cancelled."
+msgstr "התחברות OpenID בוטלה."
+
+#: modules/openid/openid.pages.inc:39
+msgid "Successfully added %identity"
+msgstr "%identity נוסף בהצלחה"
+
+#: modules/openid/openid.pages.inc:66
+msgid "Add an OpenID"
+msgstr "הוספת OpenID"
+
+#: modules/openid/openid.pages.inc:74
+msgid "That OpenID is already in use on this site."
+msgstr "OpenID זה כבר בשימוש באתר."
+
+#: modules/openid/openid.pages.inc:103
+msgid "Are you sure you want to delete the OpenID %authname for %user?"
+msgstr "האם אכן ברצונך למחוק את ה־OpenID ‏%authname עבור %user?"
+
+#: modules/openid/openid.pages.inc:109
+msgid "OpenID deleted."
+msgstr "OpenID נמחק."
+
+#: modules/openid/openid.module:47
+msgid "This site supports <a href=\"@openid-net\">OpenID</a>, a secure way to log into many websites using a single username and password. OpenID can reduce the necessity of managing many usernames and passwords for many websites."
+msgstr ""
+
+#: modules/openid/openid.module:48
+msgid "To use OpenID you must first establish an identity on a public or private OpenID server. If you do not have an OpenID and would like one, look into one of the <a href=\"@openid-providers\">free public providers</a>. You can find out more about OpenID at <a href=\"@openid-net\">this website</a>."
+msgstr ""
+
+#: modules/openid/openid.module:49
+msgid "If you already have an OpenID, enter the URL to your OpenID server below (e.g. myusername.openidprovider.com). Next time you login, you will be able to use this URL instead of a regular username and password. You can have multiple OpenID servers if you like; just keep adding them here."
+msgstr ""
+
+#: modules/openid/openid.module:53
+msgid "OpenID is a secure method for logging into many websites with a single username and password. It does not require special software, and it does not share passwords with any site to which it is associated; including your site."
+msgstr ""
+
+#: modules/openid/openid.module:54
+msgid "Users can create accounts using their OpenID, assign one or more OpenIDs to an existing account, and log in using an OpenID. This lowers the barrier to registration, which is good for the site, and offers convenience and security to the users. OpenID is not a trust system, so email verification is still necessary. The benefit stems from the fact that users can have a single password that they can use on many websites. This means they can easily update their single password from a centralized location, rather than having to change dozens of passwords individually."
+msgstr ""
+
+#: modules/openid/openid.module:55
+msgid "The basic concept is as follows: A user has an account on an OpenID server. This account provides them with a unique URL (such as myusername.openidprovider.com). When the user comes to your site, they are presented with the option of entering this URL. Your site then communicates with the OpenID server, asking it to verify the identity of the user. If the user is logged into their OpenID server, the server communicates back to your site, verifying the user. If they are not logged in, the OpenID server will ask the user for their password. At no point does your site record, or need to record the user's password."
+msgstr ""
+
+#: modules/openid/openid.module:56
+msgid "More information on OpenID is available at <a href=\"@openid-net\">OpenID.net</a>."
+msgstr ""
+
+#: modules/openid/openid.module:57
+msgid "For more information, see the online handbook entry for <a href=\"@handbook\">OpenID module</a>."
+msgstr ""
+
+#: modules/openid/openid.module:69
+msgid "Once you have verified your email address, you may log in via OpenID."
+msgstr "מרגע שאישרת את כתובת הדוא\"ל, יתאפשר לך להתחבר באמצעות OpenID."
+
+#: modules/openid/openid.module:91;108
+msgid "Log in using OpenID"
+msgstr "התחברות באמצעות OpenID"
+
+#: modules/openid/openid.module:95
+msgid "Cancel OpenID login"
+msgstr "ביטול התחברות OpenID"
+
+#: modules/openid/openid.module:112
+msgid "What is OpenID?"
+msgstr "מה זה OpenID?"
+
+#: modules/openid/openid.module:161
+msgid "Sorry, that is not a valid OpenID. Please ensure you have spelled your ID correctly."
+msgstr ""
+
+#: modules/openid/openid.module:391
+msgid "You must validate your email address for this account before logging in via OpenID"
+msgstr ""
+"עליך לאמת את כתובת הדוא\"ל עבור חשבון זה לפני שיהיה ניתן להתחבר באמצעות "
+"OpenID"
+
+#: modules/openid/openid.module:409
+msgid "OpenID registration failed for the reasons listed. You may register now, or if you already have an account you can <a href=\"@login\">log in</a> now and add your OpenID under \"My Account\""
+msgstr ""
+
+#: modules/openid/openid.module:14
+msgid "OpenID Login"
+msgstr "התחברות OpenID"
+
+#: modules/openid/openid.module:21
+msgid "OpenID identities"
+msgstr "זהויות OpenID"
+
+#: modules/openid/openid.module:30
+msgid "Delete OpenID"
+msgstr "מחיקת OpenID"

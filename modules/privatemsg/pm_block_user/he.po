@@ -1,0 +1,138 @@
+# $Id: pm_block_user.pot,v 1.1.2.3 2010/04/12 12:10:41 berdir Exp $
+# LANGUAGE translation of Privatemsg (pm_block_user)
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+# Generated from files:
+# pm_block_user.module,v 1.1.2.15 2010/02/18 18:15:33 berdir
+# pm_block_user.info,v 1.2.2.1 2009/04/10 15:52:48 litwol
+# Ddorda <ddorda@ubuntu.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2010-04-12 13:53+0200\n"
+"PO-Revision-Date: 2010-11-15 18:10+0300\n"
+"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
+"Language-Team: Gezer\n"
+"Language: he\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.5.2\n"
+
+#: pm_block_user/pm_block_user.module:25
+msgid "This area is used to define user blocking rules for the Privatemsg module. Rules allow control of who may block messages from whom. By default all users are allowed to block messages from anyone else. However, a site may have groups of users that need to contact or get information to others, for example: the site may have administrative staff or be a forum with moderators. Groups of users are defined by roles, which can be managed on the <a href=\"@roles\">roles configuration page</a>."
+msgstr ""
+
+#: pm_block_user/pm_block_user.module:97
+msgid "More"
+msgstr "עוד"
+
+#: pm_block_user/pm_block_user.module:100
+msgid "Add new rule"
+msgstr "הוספת כלל חדש"
+
+#: pm_block_user/pm_block_user.module:113
+msgid "Save configuration"
+msgstr "שמירת הגדרות"
+
+#: pm_block_user/pm_block_user.module:160
+msgid "Disallow blocking author"
+msgstr "מניעת חסימת מחבר"
+
+#: pm_block_user/pm_block_user.module:161
+msgid "Disallow sending message"
+msgstr "מניעת שליחת הודעה"
+
+#: pm_block_user/pm_block_user.module:182
+msgid "Remove"
+msgstr "הסרה"
+
+#: pm_block_user/pm_block_user.module:185
+msgid "Remove rule"
+msgstr "הסרת כלל"
+
+#: pm_block_user/pm_block_user.module:247
+msgid "The configuration options have been saved."
+msgstr "אפשרויות ההגדרות נשמרו."
+
+#: pm_block_user/pm_block_user.module:327
+msgid "If the author has the role"
+msgstr "אם לכותב יש תפקיד"
+
+#: pm_block_user/pm_block_user.module:328
+msgid "And the recipient has the role"
+msgstr ""
+
+#: pm_block_user/pm_block_user.module:329
+msgid "Action"
+msgstr "פעולה"
+
+#: pm_block_user/pm_block_user.module:330
+msgid "Enabled"
+msgstr "פעיל"
+
+#: pm_block_user/pm_block_user.module:358
+msgid "No rules have been added. All users may block private messages from each other. To limit which users may be blocked, click 'Add new rule'."
+msgstr ""
+"לא נוספו כללים. כל המשתמשים רשאים לחסום קבלת הודעות פרטיות אחד מהשני. כדי "
+"להגביל משתמשים שיכולים להיחסם, יש ללחוץ על ׳הוספת כלל חדש׳."
+
+#: pm_block_user/pm_block_user.module:461
+msgid "You have previously blocked \"@author\" from sending you any more messages. Are you sure you want to unblock this user?"
+msgstr "בעבר חסמת קבלת הודעות מ־\"@author\". האם אכן ברצונך להסיר חסימה זו?"
+
+#: pm_block_user/pm_block_user.module:464
+msgid "Unblock @author"
+msgstr "הסרת חסימה מ־@author"
+
+#: pm_block_user/pm_block_user.module:474
+msgid "Are you sure you want to block \"@author\" from sending you any more messages?"
+msgstr "האם אכן ברצונך לחסום את \"@author\" מלשלוח לך הודעות?"
+
+#: pm_block_user/pm_block_user.module:477
+msgid "Block @author"
+msgstr "חסימת @author"
+
+#: pm_block_user/pm_block_user.module:491
+msgid "@author has been blocked from sending you any further messages."
+msgstr "@author נחסם מלשלוח לך הודעות."
+
+#: pm_block_user/pm_block_user.module:495
+msgid "@author is now allowed to send you new messages."
+msgstr "@author עתה מורשה לשלוח לך הודעות."
+
+#: pm_block_user/pm_block_user.module:522
+msgid "Sorry, private messaging rules forbid sending messages to !name."
+msgstr "מצטערים, אך כללי שליחת הודעות פרטיות אוסרים על שליחת הודעות אל !name."
+
+#: pm_block_user/pm_block_user.module:537
+msgid "%name has chosen to not recieve any more messages from you."
+msgstr ""
+
+#: pm_block_user/pm_block_user.module:567
+msgid "Unblock author"
+msgstr "הסרת חסימה מהמחבר"
+
+#: pm_block_user/pm_block_user.module:570
+msgid "Block author"
+msgstr "חסימת מחבר"
+
+#: pm_block_user/pm_block_user.module:34 pm_block_user/pm_block_user.info:0
+msgid "Block user messages"
+msgstr "חסימת הודעות מחבר"
+
+#: pm_block_user/pm_block_user.module:44
+msgid "User blocking rules"
+msgstr "כללי חסימת משתמש"
+
+#: pm_block_user/pm_block_user.module:45
+msgid "Configure rules for which users may block each other."
+msgstr "הגדרת כללים עבור אילו משתמשים יכולים לחסום אחד את השני."
+
+#: pm_block_user/pm_block_user.module:53
+msgid "Javascript block actions form"
+msgstr ""
+
+#: pm_block_user/pm_block_user.info:0
+msgid "Allows users to block other users from sending them messages."
+msgstr "מאפשר למשתמשים לחסום משתמשים אחרים מלשלוח להם הודעות."

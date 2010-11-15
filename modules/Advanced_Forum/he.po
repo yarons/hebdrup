@@ -20,7 +20,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-02-21 14:20-0500\n"
-"PO-Revision-Date: 2010-11-15 10:31+0300\n"
+"PO-Revision-Date: 2010-11-15 16:57+0300\n"
 "Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
 "Language-Team: Gezer\n"
 "Language: he\n"
@@ -150,7 +150,7 @@ msgstr "שיתוף המחשבות והדעות שלך בנושא פרסום זה
 
 #: advanced_forum.module:371
 msgid "post-reply.png"
-msgstr ""
+msgstr "he/post-reply.png"
 
 #: advanced_forum.module:371
 msgid "Post reply"
@@ -166,7 +166,7 @@ msgstr "נושא זה נעול"
 
 #: advanced_forum.module:384
 msgid "locked-topic.png"
-msgstr ""
+msgstr "he/locked-topic.png"
 
 #: advanced_forum.module:384
 msgid "Locked"
@@ -182,7 +182,7 @@ msgstr ""
 
 #: advanced_forum.module:598
 msgid "new-topic.png"
-msgstr ""
+msgstr "he/new-topic.png"
 
 #: advanced_forum.module:598
 msgid "New topic"
@@ -190,7 +190,7 @@ msgstr "נושא חדש"
 
 #: advanced_forum.module:604
 msgid "new-poll.png"
-msgstr ""
+msgstr "he/new-poll.png"
 
 #: advanced_forum.module:604
 msgid "New poll"
@@ -206,7 +206,7 @@ msgstr "סימון כל הפורומים כנקראו"
 
 #: advanced_forum.module:625
 msgid "mark-read.png"
-msgstr ""
+msgstr "mark-read.png"
 
 #: advanced_forum.module:625
 msgid "Mark read"
@@ -214,7 +214,7 @@ msgstr "סימון כנקרא"
 
 #: advanced_forum.module:662;748
 msgid "forum-folder-new-posts.png"
-msgstr ""
+msgstr "forum-folder-new-posts.png"
 
 #: advanced_forum.module:662 styles/naked/advanced_forum-forum-legend.tpl.php:13
 msgid "Forum Contains New Posts"
@@ -222,7 +222,7 @@ msgstr "הפורום מכיל תגובות חדשות"
 
 #: advanced_forum.module:663
 msgid "/forum-folder.png"
-msgstr ""
+msgstr "/forum-folder.png"
 
 #: advanced_forum.module:663 styles/naked/advanced_forum-forum-legend.tpl.php:15
 msgid "Forum Contains No New Posts"
@@ -238,7 +238,7 @@ msgstr "הפורום נעול"
 
 #: advanced_forum.module:670
 msgid "topic-new.png"
-msgstr ""
+msgstr "topic-new.png"
 
 #: advanced_forum.module:670 styles/naked/advanced_forum-topic-legend.tpl.php:18
 msgid "New Posts"
@@ -254,7 +254,7 @@ msgstr "שרשור חם (חדש)"
 
 #: advanced_forum.module:672
 msgid "topic-hot.png"
-msgstr ""
+msgstr "topic-hot.png"
 
 #: advanced_forum.module:672 styles/naked/advanced_forum-topic-legend.tpl.php:24
 msgid "Hot Thread (No New)"
@@ -262,7 +262,7 @@ msgstr "נושא חם (לא חדש)"
 
 #: advanced_forum.module:673
 msgid "topic-default.png"
-msgstr ""
+msgstr "topic-default.png"
 
 #: advanced_forum.module:673 styles/naked/advanced_forum-topic-legend.tpl.php:14
 msgid "No New Posts"
@@ -270,7 +270,7 @@ msgstr "אין תגובות חדשות"
 
 #: advanced_forum.module:674
 msgid "topic-sticky.png"
-msgstr ""
+msgstr "topic-sticky.png"
 
 #: advanced_forum.module:674 styles/naked/advanced_forum-topic-legend.tpl.php:34
 msgid "Sticky Thread"
@@ -278,7 +278,7 @@ msgstr "נושא דביק"
 
 #: advanced_forum.module:675
 msgid "topic-closed.png"
-msgstr ""
+msgstr "topic-closed.png"
 
 #: advanced_forum.module:675 styles/naked/advanced_forum-topic-legend.tpl.php:38
 msgid "Locked Thread"
@@ -290,11 +290,11 @@ msgstr ""
 
 #: advanced_forum.module:751
 msgid "forum-folder.png"
-msgstr ""
+msgstr "forum-folder.png"
 
 #: advanced_forum.module:751
 msgid "folder"
-msgstr ""
+msgstr "קטגוריה"
 
 #: advanced_forum.module:841
 msgid "Views"
@@ -322,7 +322,7 @@ msgstr "צפייה בפרופיל משתמש."
 
 #: advanced_forum.module:1289;1294
 msgid "reply.png"
-msgstr ""
+msgstr "he/reply.png"
 
 #: advanced_forum.module:1289;1294
 msgid "reply"
@@ -330,7 +330,7 @@ msgstr "תגובה"
 
 #: advanced_forum.module:1299
 msgid "edit.png"
-msgstr ""
+msgstr "he/edit.png"
 
 #: advanced_forum.module:1299
 msgid "edit"
@@ -338,7 +338,7 @@ msgstr "עריכה"
 
 #: advanced_forum.module:1304
 msgid "delete.png"
-msgstr ""
+msgstr "he/delete.png"
 
 #: advanced_forum.module:1304
 msgid "delete"

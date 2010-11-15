@@ -1,0 +1,11 @@
+/* RTLing by Ddorda <ddorda at ubuntu.com>, Gezer  translating team */
+
+form#privatemsg-filter-dropdown #edit-author-wrapper, form#privatemsg-filter-dropdown #edit-tags-wrapper {
+  float: right;
+  margin-left: 3em;
+  margin-right: 0;
+}
+
+form#privatemsg-filter-dropdown #privatemsg-filter-buttons {
+  clear: right;
+}

@@ -1,0 +1,11 @@
+/* RTLing by Ddorda <ddorda at ubuntu.com>, Gezer  translating team */
+
+#add-rule-button label {
+  margin-right: 2px;
+  margin-left: 0;
+}
+#remove-rule-button input {
+  margin-left: 0;
+  margin-right: 36px;
+}
+

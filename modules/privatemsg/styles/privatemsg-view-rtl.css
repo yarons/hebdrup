@@ -1,0 +1,39 @@
+/* RTLing by Ddorda <ddorda at ubuntu.com>, Gezer  translating team */
+
+.privatemsg-box-fb {
+  text-align  : right;
+}
+
+.left-column {
+  float       : right;
+}
+
+.middle-column {
+  float       : right;
+  text-align  : left;
+}
+.name {
+  margin      : 5px 0px 0px 15px;
+} 
+.date {
+  margin        : 0px 0pt 0pt 15px;
+} 
+.right-column {
+  margin:0 250px 0 0;
+}
+.bottom-border {
+  margin       : 0 250px 10px 0;
+}
+.message-body {
+  margin      : 0 5px 0 0;
+}
+
+.message-actions li {
+  float:right;
+}
+
+.privatemsg-view-pager {
+  margin: 20px 200px 20px 0;
+  padding-right: 10px;
+  padding-left: 0;
+}

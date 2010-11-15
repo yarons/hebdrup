@@ -1,0 +1,41 @@
+# Hebrew translation of Author Pane (all releases)
+# Copyright (c) 2010 by the Hebrew translation team
+# Generated from files:
+#  author_pane.inc,v 1.1.2.2.2.2 2009/09/07 04:45:42 michellec
+#  author_pane.inc,v 1.1.2.2.2.3 2010/06/08 04:14:50 michellec
+#  author_pane.inc,v 1.1.2.2.2.5 2010/10/04 14:59:56 michellec
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Author Pane (all releases)\n"
+"POT-Creation-Date: 2010-11-15 22:59+0000\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Language-Team: Hebrew\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\n"
+
+#: plugins/content_types/author_pane.inc:59
+msgid ""
+"Imagecache preset to use for forum avatars. Leave blank to not use "
+"this feature."
+msgstr ""
+
+#: plugins/content_types/author_pane.inc:66,74
+msgid "Caller"
+msgstr ""
+
+#: plugins/content_types/author_pane.inc:68,76
+msgid ""
+"Name of the calling program. This can be picked up during the "
+"preprocessing for specific changes. If using this in Advanced Profile "
+"Kit, it should be set to \"advanced_profile\""
+msgstr ""
+
+#: plugins/content_types/author_pane.inc:59,67
+msgid ""
+"Imagecache preset to use for user picture. Leave blank to not use this "
+"feature."
+msgstr ""
+

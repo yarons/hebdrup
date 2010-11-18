@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-07-19 18:21+0200\n"
-"PO-Revision-Date: 2010-10-21 10:27+0300\n"
+"PO-Revision-Date: 2010-11-18 15:58+0300\n"
 "Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
 "Language-Team: Gezer\n"
 "Language: he\n"
@@ -26,7 +26,7 @@ msgstr "נמענים"
 
 #: modules/contact/contact.admin.inc:43
 msgid "Example: 'website feedback' or 'product information'."
-msgstr ""
+msgstr "דוגמה: ״תגובה על האתר״ או ״מידע על מוצר״."
 
 #: modules/contact/contact.admin.inc:49
 msgid "Example: 'webmaster@example.com' or 'sales@example.com,support@example.com'. To specify multiple recipients, separate each e-mail address with a comma."
@@ -41,6 +41,8 @@ msgstr "תגובה אוטומטית"
 #: modules/contact/contact.admin.inc:55
 msgid "Optional auto-reply. Leave empty if you do not want to send the user an auto-reply message."
 msgstr ""
+"תגובה אוטומטית אפשרית. יש להשאיר ריק אם אינך רוצה לשלוח למשתמש הודעת תגובה "
+"אוטומטית."
 
 #: modules/contact/contact.admin.inc:60
 msgid "When listing categories, those with lighter (smaller) weights get listed before categories with heavier (larger) weights. Categories with equal weights are sorted alphabetically."
@@ -168,11 +170,11 @@ msgstr "ההודעה נשלחה."
 
 #: modules/contact/contact.pages.inc:146
 msgid "%name-from sent an e-mail regarding %category."
-msgstr ""
+msgstr "נשלח מכתב דוא״ל ע״י %name-from בנושא %category."
 
 #: modules/contact/contact.pages.inc:231
 msgid "%name-from sent %name-to an e-mail."
-msgstr ""
+msgstr "נשלח מכתב דוא״ל מאת %name-from אל %name-to"
 
 #: modules/contact/contact.module:15
 msgid "The contact module facilitates communication via e-mail, by allowing your site's visitors to contact one another (personal contact forms), and by providing a simple way to direct messages to a set of administrator-defined recipients (the <a href=\"@contact\">contact page</a>). With either form, users specify a subject, write their message, and (optionally) have a copy of their message sent to their own e-mail address."

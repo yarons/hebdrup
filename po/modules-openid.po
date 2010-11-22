@@ -6,23 +6,24 @@
 # openid.pages.inc,v 1.5.2.1 2008/07/09 21:48:28 goba
 # openid.module,v 1.19.2.6 2009/06/10 14:05:23 goba
 # Ddorda <ddorda@ubuntu.com>, 2010.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-07-19 18:21+0200\n"
-"PO-Revision-Date: 2010-11-03 14:29+0300\n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer\n"
+"PO-Revision-Date: 2010-11-22 09:47+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"X-Generator: Virtaal 0.6.1\n"
 
 #: modules/openid/openid.inc:44
 msgid "OpenID redirect"
-msgstr ""
+msgstr "הפניית OpenID"
 
 #: modules/openid/openid.inc:67
 msgid "Send"
@@ -30,11 +31,11 @@ msgstr "שליחה"
 
 #: modules/openid/openid.pages.inc:18
 msgid "OpenID login failed."
-msgstr "התחברות OpenID נכשלה."
+msgstr "הכניסה באמצעות OpenID נכשלה."
 
 #: modules/openid/openid.pages.inc:21
 msgid "OpenID login cancelled."
-msgstr "התחברות OpenID בוטלה."
+msgstr "הכניסה באמצעות OpenID בוטלה."
 
 #: modules/openid/openid.pages.inc:39
 msgid "Successfully added %identity"
@@ -46,7 +47,7 @@ msgstr "הוספת OpenID"
 
 #: modules/openid/openid.pages.inc:74
 msgid "That OpenID is already in use on this site."
-msgstr "OpenID זה כבר בשימוש באתר."
+msgstr "OpenID זה כבר נמצא בשימוש באתר."
 
 #: modules/openid/openid.pages.inc:103
 msgid "Are you sure you want to delete the OpenID %authname for %user?"
@@ -59,10 +60,17 @@ msgstr "OpenID נמחק."
 #: modules/openid/openid.module:47
 msgid "This site supports <a href=\"@openid-net\">OpenID</a>, a secure way to log into many websites using a single username and password. OpenID can reduce the necessity of managing many usernames and passwords for many websites."
 msgstr ""
+"אתר זה תומך ב־<a href=\"@openid-net\">OpenID</a>, דרך בטוחה להיכנס לאתרים רבים "
+"באמצעות שם משתמש וססמה אחידים. OpenID יכול להפחית את הצורך בניהול שמות "
+"משתמשים וססמאות רבים למספר גדול של אתרים."
 
 #: modules/openid/openid.module:48
 msgid "To use OpenID you must first establish an identity on a public or private OpenID server. If you do not have an OpenID and would like one, look into one of the <a href=\"@openid-providers\">free public providers</a>. You can find out more about OpenID at <a href=\"@openid-net\">this website</a>."
 msgstr ""
+"כדי להשתמש ב־OpenID ראשית עליך ליצור זהות בשרת OpenID פרטי או ציבורי. אם עוד "
+"אין לך זהות OpenID וברצונך ליצור אחת, באפשרותך לחפש ב<a href=\"@openid-"
+"providers\">רשימת הספקים הציבוריים</a>. ניתן למצוא מידע נוסף בנוגע ל־OpenID "
+"ב<a href=\"@openid-net\">אתר זה</a>."
 
 #: modules/openid/openid.module:49
 msgid "If you already have an OpenID, enter the URL to your OpenID server below (e.g. myusername.openidprovider.com). Next time you login, you will be able to use this URL instead of a regular username and password. You can have multiple OpenID servers if you like; just keep adding them here."
@@ -83,10 +91,13 @@ msgstr ""
 #: modules/openid/openid.module:56
 msgid "More information on OpenID is available at <a href=\"@openid-net\">OpenID.net</a>."
 msgstr ""
+"מידע נוסף על אודות OpenID זמין בכתובת <a href=\"@openid-net\">OpenID.net</a>."
 
 #: modules/openid/openid.module:57
 msgid "For more information, see the online handbook entry for <a href=\"@handbook\">OpenID module</a>."
 msgstr ""
+"למידע נוסף, יש לעיין ברשומת המדריך המעשי ל<a href=\"@system\">מודול "
+"ה־OpenID</a>."
 
 #: modules/openid/openid.module:69
 msgid "Once you have verified your email address, you may log in via OpenID."
@@ -107,6 +118,8 @@ msgstr "מה זה OpenID?"
 #: modules/openid/openid.module:161
 msgid "Sorry, that is not a valid OpenID. Please ensure you have spelled your ID correctly."
 msgstr ""
+"זהו אינו OpenID תקני, עמך הסליחה. נא לוודא שמחרוזת הזיהוי שלך אינה מכילה "
+"שגיאות."
 
 #: modules/openid/openid.module:391
 msgid "You must validate your email address for this account before logging in via OpenID"
@@ -117,6 +130,9 @@ msgstr ""
 #: modules/openid/openid.module:409
 msgid "OpenID registration failed for the reasons listed. You may register now, or if you already have an account you can <a href=\"@login\">log in</a> now and add your OpenID under \"My Account\""
 msgstr ""
+"ההרשמה באמצעות OpenID נכשלה עקב הסיבות שמופיעות להלן. באפשרותך להירשם כעת או "
+"שאם כבר יש לך חשבון משתמש באפשרותך <a href=\"@login\">להיכנס</a> כעת ולהוסיף "
+"את ה־OpenID שלך תחת \"החשבון שלי\""
 
 #: modules/openid/openid.module:14
 msgid "OpenID Login"

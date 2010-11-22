@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-07-19 18:21+0200\n"
-"PO-Revision-Date: 2010-11-22 09:02+0300\n"
+"PO-Revision-Date: 2010-11-22 09:14+0300\n"
 "Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
 "Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
@@ -70,6 +70,11 @@ msgstr "הגדרות הסידור באינדקס"
 #: modules/search/search.admin.inc:61
 msgid "<p><em>Changing the settings below will cause the site index to be rebuilt. The search index is not cleared but systematically updated to reflect the new settings. Searching will continue to work but new content won't be indexed until all existing content has been re-indexed.</em></p><p><em>The default settings should be appropriate for the majority of sites.</em></p>"
 msgstr ""
+"<p><em>שינוי ההגדרות שלהלן יגרמו לאינדקס להסתדר מחדש. אינדקס החיפוש לא יפונה "
+"אך יעודכן באופן מערכתי כדי לשקף את השינויים בהגדרות. החיפוש עדיין יעבוד אך "
+"הוא לא יציג את התוכן החדש עד שהתוכן הקיים יסודר מחדש "
+"באינדקס.</em></p><p><em>הגדרות בררת המחדל אמורות להתאים לרוב "
+"האתרים.</em></p>"
 
 #: modules/search/search.admin.inc:62
 msgid "Minimum word length to index"
@@ -78,6 +83,9 @@ msgstr "אורך המילה המזערי לסידור באינדקס"
 #: modules/search/search.admin.inc:62
 msgid "The number of characters a word has to be to be indexed. A lower setting means better search result ranking, but also a larger database. Each search query must contain at least one keyword that is this size (or longer)."
 msgstr ""
+"מספר התווים הנמוך ביותר שיכולה להכיל מילה כדי שתסודר באינדקס. ככל שהערך נמוך "
+"יותר כך ערך הדירוג עולה אבל מסד הנתונים תופח. כל שאילתת חיפוש חייבת להכיל "
+"לפחות מילת מפתח אחת בגודל זה (ומעלה)."
 
 #: modules/search/search.admin.inc:63
 msgid "Simple CJK handling"

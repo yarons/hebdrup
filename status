@@ -1,0 +1,1 @@
+find . -name "*.po" | while read i; do printf $i" - " && msgfmt --statistics $i; done

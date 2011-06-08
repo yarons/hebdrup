@@ -27,71 +27,73 @@
 # author_pane.module,v 1.1.2.16.2.18 2010/10/04 15:33:48 michellec
 # author_pane.info,v 1.1.2.5.2.2 2010/10/04 15:33:48 michellec
 # Ddorda <ddorda@ubuntu.com>, 2010.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Author Pane (all releases)\n"
 "POT-Creation-Date: 2010-11-15 22:59+0000\n"
-"PO-Revision-Date: 2010-11-16 01:05+0300\n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer\n"
+"PO-Revision-Date: 2011-06-08 12:06+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"X-Generator: Virtaal 0.7.0-beta5\n"
+"X-Project-Style: default\n"
 
 #: author-pane-block.tpl.php:64; author-pane.tpl.php:119
 msgid "Groups"
-msgstr ""
+msgstr "קבוצות"
 
 #: panels_content_types/author_pane.inc:36; plugins/content_types/author_pane.inc:18
 msgid "User"
-msgstr ""
+msgstr "משתמש"
 
 #: panels_content_types/author_pane.inc:75; plugins/content_types/author_pane.inc:50
 msgid "Image directory"
-msgstr ""
+msgstr "תיקיית התמונות"
 
 #: author-pane-block.tpl.php:72; author-pane.tpl.php:127,167,166,174,170,185
 msgid "IP"
-msgstr ""
+msgstr "IP"
 
 #: author-pane-block.tpl.php:58; author-pane.tpl.php:113,126,125,133,129,144
 msgid "!Points"
-msgstr ""
+msgstr "!Points"
 
 #: author-pane-block.tpl.php:52; author-pane.tpl.php:107,119,118,126,122,137
 msgid "Posts"
-msgstr ""
+msgstr "רשומות"
 
 #: author-pane-block.tpl.php:46; author-pane.tpl.php:101,112,111,119,115,130
 msgid "Joined"
-msgstr ""
+msgstr "הצטרפות"
 
 #: panels_content_types/author_pane.inc:37; plugins/content_types/author_pane.inc:19
 msgid "Advanced Profile Kit"
-msgstr ""
+msgstr "ערכת פרופיל מתקדמת"
 
 #: author_pane.module:19,38,39,43,46; author_pane.info:0; panels_content_types/author_pane.inc:14,32; plugins/content_types/author_pane.inc:15,81,89
 msgid "Author Pane"
-msgstr ""
+msgstr "סרגל מחבר"
 
 #: author_pane.module:28,51; panels_content_types/author_pane.inc:85; plugins/content_types/author_pane.inc:60
 msgid "Template file"
-msgstr ""
+msgstr "קובץ תבנית"
 
 #: author_pane.module:65,88,73,77,79,81; plugins/content_types/author_pane.inc:57,65
 msgid "User picture preset"
-msgstr ""
+msgstr "ערכת תמונת משתמש"
 
 #: panels_content_types/author_pane.inc:35; plugins/content_types/author_pane.inc:17
 msgid "Author related variables gathered from helper modules."
-msgstr ""
+msgstr "משתנים הקשורים למחבר שנאספו ממודולים מסייעים."
 
 #: panels_content_types/author_pane.inc:61; plugins/content_types/author_pane.inc:77
 msgid "\"@s\" author pane"
-msgstr ""
+msgstr "סרגל המחבר \"@s\""
 
 #: panels_content_types/author_pane.inc:77; plugins/content_types/author_pane.inc:52
 msgid ""
@@ -99,7 +101,10 @@ msgid ""
 "slashes. Use [theme_path] to substitute the active theme's path. If "
 "left blank the images in the module directory will be used."
 msgstr ""
+"נתיב מלא אל תיקיית התמונות למעט לוכסנים מקדימים או מסיימים. יש להשתמש "
+"ב־[theme_path] כדי להחליף את נתיב ערכת העיצוב הפעילה. אם השדה נשאר ריק ייעשה "
+"שימוש בתמונות בתיקיית המודול."
 
 #: panels_content_types/author_pane.inc:87; plugins/content_types/author_pane.inc:62
 msgid "Template file to use for the author pane."
-msgstr ""
+msgstr "קובץ תבנית לשימוש עבור סרגל המחבר."

@@ -8,19 +8,21 @@
 # update.module,v 1.17.2.5 2009/06/09 11:08:32 goba
 # update.settings.inc,v 1.3.2.1 2009/04/29 17:17:21 goba
 # Ddorda <ddorda@ubuntu.com>, 2010.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-07-19 18:21+0200\n"
-"PO-Revision-Date: 2010-10-20 03:39+0300\n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer\n"
+"PO-Revision-Date: 2011-06-08 18:11+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"X-Generator: Virtaal 0.7.0-beta5\n"
+"X-Project-Style: default\n"
 
 #: modules/update/update.compare.inc:166
 msgid "Unknown"
@@ -33,8 +35,8 @@ msgstr "מיזם לא בטוח"
 #: modules/update/update.compare.inc:280
 msgid "This project has been labeled insecure by the Drupal security team, and is no longer available for download. Immediately disabling everything included by this project is strongly recommended!"
 msgstr ""
-"מיזם זה סומן כלא־בטוח ע\"י צוות האבטחה של דרופל, ואינו זמין יותר להורדה. "
-"מומלץ ביותר לנטרל כל דבר המושפע ממיזם זה!"
+"מיזם זה סומן כלא־בטוח ע״י צוות האבטחה של דרופל, ואינו זמין עוד להורדה. מומלץ "
+"ביותר לנטרל כל דבר המושפע ממיזם זה!"
 
 #: modules/update/update.compare.inc:291
 msgid "Project revoked"
@@ -43,8 +45,8 @@ msgstr "מיזם מבוטל"
 #: modules/update/update.compare.inc:292
 msgid "This project has been revoked, and is no longer available for download. Disabling everything included by this project is strongly recommended!"
 msgstr ""
-"מיזם זה סומן כמבוטל, ואינו זמין יותר להורדה. מומלץ ביותר לנטרל כל דבר המושפע "
-"ממיזם זה!"
+"מיזם זה נשלל, ואינו זמין יותר להורדה. מומלץ ביותר לנטרל כל דבר המושפע ממיזם "
+"זה!"
 
 #: modules/update/update.compare.inc:302
 msgid "Project not supported"
@@ -71,6 +73,8 @@ msgstr "שחרור בוטל"
 #: modules/update/update.compare.inc:392
 msgid "Your currently installed release has been revoked, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
+"ההפצה שמותקנת אצלך כעת נשללה ואינה ניתנת עוד להורדה. נטרול כל מה שכלול בהפצה "
+"זו או שדרוגה מומלצים בחום!"
 
 #: modules/update/update.compare.inc:403
 msgid "Release not supported"
@@ -79,6 +83,8 @@ msgstr "שחרור לא נתמך"
 #: modules/update/update.compare.inc:404
 msgid "Your currently installed release is now unsupported, and is no longer available for download. Disabling everything included in this release or upgrading is strongly recommended!"
 msgstr ""
+"ההפצה שמותקנת אצלך כעת אינה נתמכת ואינה ניתנת עוד להורדה. נטרול כל מה שכלול "
+"בהפצה זו או שדרוגה מומלצים בחום!"
 
 #: modules/update/update.compare.inc:555
 msgid "Unknown release date"
@@ -102,7 +108,7 @@ msgstr "עדכון"
 
 #: modules/update/update.report.inc:30
 msgid "Last checked: @time ago"
-msgstr "בדיקה אחרונה: @time ago"
+msgstr "בדיקה אחרונה: לפני @time"
 
 #: modules/update/update.report.inc:30
 msgid "Last checked: never"
@@ -166,7 +172,7 @@ msgstr "מודולים מנוטרלים"
 
 #: modules/update/update.report.inc:202
 msgid "Disabled themes"
-msgstr ""
+msgstr "ערכות עיצוב מנוטרלות"
 
 #: modules/update/update.report.inc:231
 msgid "Download"
@@ -178,11 +184,14 @@ msgstr "הערות שחרור"
 
 #: modules/update/update.settings.inc:18
 msgid "E-mail addresses to notify when updates are available"
-msgstr ""
+msgstr "כתובות דוא״ל אליהן יש לדווח כאשר ישנם עדכונים זמינים"
 
 #: modules/update/update.settings.inc:21
 msgid "Whenever your site checks for available updates and finds new releases, it can notify a list of users via e-mail. Put each address on a separate line. If blank, no e-mails will be sent."
 msgstr ""
+"בכל פעם שהאתר שלך מחפש אחר עדכונים ומוצא הפצות חדשות, באפשרותו להודיע לרשימה "
+"של משתמשים דרך דוא״ל. יש לרשום כל כתובת בשורה נפרדת. אם השדה נשאר ריק לא "
+"יישלחו הודעות בדוא״ל."
 
 #: modules/update/update.settings.inc:26
 msgid "Check for updates"
@@ -199,10 +208,12 @@ msgstr "אחת לשבוע"
 #: modules/update/update.settings.inc:32
 msgid "Select how frequently you want to automatically check for new releases of your currently installed modules and themes."
 msgstr ""
+"נא לבחור את התדירות בה ברצונך לבדוק באופן אוטומטי אחר הפצות חדשות של "
+"המודולים וערכות העיצוב המותקנות נכון לאותו הרגע."
 
 #: modules/update/update.settings.inc:37
 msgid "E-mail notification threshold"
-msgstr ""
+msgstr "סף עדכון הדיווחים בדוא״ל"
 
 #: modules/update/update.settings.inc:40
 msgid "All newer versions"
@@ -218,11 +229,11 @@ msgstr ""
 
 #: modules/update/update.settings.inc:80
 msgid "%email is not a valid e-mail address."
-msgstr "%email אינה כתובת דוא\"ל חוקית."
+msgstr "%email אינה כתובת דוא״ל חוקית."
 
 #: modules/update/update.settings.inc:83
 msgid "%emails are not valid e-mail addresses."
-msgstr "%emails אינן כתובות דוא\"ל חוקיות."
+msgstr "%emails אינן כתובות דוא״ל חוקיות."
 
 #: modules/update/update.module:70
 msgid "Here you can find information about available updates for your installed modules and themes. Note that each module or theme is part of a \"project\", which may or may not have the same name, and might include multiple modules or themes within it."
@@ -262,7 +273,7 @@ msgstr "אין מידע עדכונים זמין"
 
 #: modules/update/update.module:255
 msgid "Module and theme update status"
-msgstr ""
+msgstr "מצב עדכון מודולים וערכות עיצוב"
 
 #: modules/update/update.module:265
 msgid "Not secure!"
@@ -283,6 +294,11 @@ msgstr "(גרסה @version זמינה)"
 #: modules/update/update.module:326
 msgid "No information is available about potential new releases for currently installed modules and themes. To check for updates, you may need to <a href=\"@run_cron\">run cron</a> or you can <a href=\"@check_manually\">check manually</a>. Please note that checking for available updates can take a long time, so please be patient."
 msgstr ""
+"אין מידע זמין על גרסאות אפשריות זמינות של שחרורים חדשים למודולים ולערכות "
+"הנושא המותקנות נכון לעכשיו. כדי לבדוק אם ישנם עדכונים, יתכן שיהיה עליך <a "
+"href=\"@run_cron\">להפעיל את cron</a> או שבאפשרותך <a "
+"href=\"@check_manually\">לבדוק ידנית</a>. נא לשים לב שחיפוש אחר עדכונים זמינים "
+"אורך זמן רב, נא להתאזר בסבלנות."
 
 #: modules/update/update.module:408
 msgid "New release(s) available for !site_name"
@@ -295,46 +311,63 @@ msgstr "צפייה בדף העדכונים הזמינים למידע נוסף:"
 #: modules/update/update.module:441
 msgid "There is a security update available for your version of Drupal. To ensure the security of your server, you should update immediately!"
 msgstr ""
+"ישנו עדכון אבטחה זמין לגרסת הדרופל שלך. כדי לשמור על אבטחת השרת שלך, עליך "
+"לעדכן במהירות האפשרית!"
 
 #: modules/update/update.module:444
 msgid "There are security updates available for one or more of your modules or themes. To ensure the security of your server, you should update immediately!"
 msgstr ""
+"ישנם עדכונים זמינים לאחד או יותר מהמודולים או ערכות הנושא שלך. כדי לוודא "
+"שהשרת שלך נשאר מאובטח עליך לעדכן בהקדם האפשרי!"
 
 #: modules/update/update.module:450
 msgid "Your version of Drupal has been revoked and is no longer available for download. Upgrading is strongly recommended!"
-msgstr ""
+msgstr "גרסת הדרופל שלך נשללה ואינה זמינה עוד להורדה. מומלץ לשדרג בחום!"
 
 #: modules/update/update.module:453
 msgid "The installed version of at least one of your modules or themes has been revoked and is no longer available for download. Upgrading or disabling is strongly recommended!"
 msgstr ""
+"הגרסה המותקנת של לפחות אחד מהמודולים או ערכות הנושא שלך נשללה ואינה ניתנת "
+"עוד להורדה. מומלץ בחום לשדרג או לנטרל!"
 
 #: modules/update/update.module:459
 msgid "Your version of Drupal is no longer supported. Upgrading is strongly recommended!"
-msgstr ""
+msgstr "גרסת הדרופל שברשותך אינה נתמכת עוד. מומלץ בחום לשדרג!"
 
 #: modules/update/update.module:462
 msgid "The installed version of at least one of your modules or themes is no longer supported. Upgrading or disabling is strongly recommended! Please see the project homepage for more details."
 msgstr ""
+"אחת הגרסאות של לפחות אחד מהמודולים או ערכות העיצוב שלך אינה נתמכת עוד. מומלץ "
+"לשדרג או לנטרל! נא לפנות לעמוד הבית של המיזם לפרטים נוספים."
 
 #: modules/update/update.module:468
 msgid "There are updates available for your version of Drupal. To ensure the proper functioning of your site, you should update as soon as possible."
 msgstr ""
+"ישנם עדכונים זמינים לגרסה שלך של דרופל. על מנת לוודא שאתרך ימשיך לתפקד, עליך "
+"לעדכן בהקדם האפשרי."
 
 #: modules/update/update.module:471
 msgid "There are updates available for one or more of your modules or themes. To ensure the proper functioning of your site, you should update as soon as possible."
 msgstr ""
+"ישנם עדכונים הזמינים לאחד או יותר מהמודולים או ערכות העיצוב שלך. על מנת "
+"לוודא שאתרך ימשיך לתפקד כרגיל, עליך לעדכן בהקדם האפשרי."
 
 #: modules/update/update.module:479
 msgid "There was a problem determining the status of available updates for your version of Drupal."
 msgstr ""
+"אירעה תקלה בעת הניסיון לקבוע מהו מצב העדכונים הזמינים לגרסת הדרופל שברשותך."
 
 #: modules/update/update.module:482
 msgid "There was a problem determining the status of available updates for one or more of your modules or themes."
 msgstr ""
+"אירעה שגיאה בעת בדיקת מצב העדכונים הזמינים עבור אחד או יותר מהמודולים או "
+"ערכות העיצוב שלך."
 
 #: modules/update/update.module:488
 msgid "See the <a href=\"@available_updates\">available updates</a> page for more information."
 msgstr ""
+"ניתן לפנות לעמוד <a href=\"@available_updates\">עדכונים זמינים</a> לקבלת מידע "
+"נוסף."
 
 #: modules/update/update.module:129
 msgid "Available updates"
@@ -342,7 +375,7 @@ msgstr "עדכונים זמינים"
 
 #: modules/update/update.module:130
 msgid "Get a status report about available updates for your installed modules and themes."
-msgstr ""
+msgstr "קבלת דיווח מצב על עדכונים זמינים למודולים ולערכות העיצוב המותקנות אצלך."
 
 #: modules/update/update.module:152
 msgid "Manual update check"

@@ -5,23 +5,31 @@
 # pm_block_user.module,v 1.1.2.15 2010/02/18 18:15:33 berdir
 # pm_block_user.info,v 1.2.2.1 2009/04/10 15:52:48 litwol
 # Ddorda <ddorda@ubuntu.com>, 2010.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2010-04-12 13:53+0200\n"
-"PO-Revision-Date: 2010-11-15 18:10+0300\n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer\n"
+"PO-Revision-Date: 2011-06-08 11:46+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"X-Generator: Virtaal 0.7.0-beta5\n"
+"X-Project-Style: default\n"
 
 #: pm_block_user/pm_block_user.module:25
 msgid "This area is used to define user blocking rules for the Privatemsg module. Rules allow control of who may block messages from whom. By default all users are allowed to block messages from anyone else. However, a site may have groups of users that need to contact or get information to others, for example: the site may have administrative staff or be a forum with moderators. Groups of users are defined by roles, which can be managed on the <a href=\"@roles\">roles configuration page</a>."
 msgstr ""
+"אזור זה משתמש להגדרת כללי חסימת המשתמשים עבור המודול Privatemsg. כללים "
+"מאפשרים לך לשלוט מי יוכל לחסום הודעות המגיעות ממקורות מסוימים. כבררת מחדל כל "
+"המשתמשים מורשים לחסום הודעות מכל אחד אחר. עם זאת, יתכן שבאתר מסוים יהיו "
+"קבוצות שצריכות ליצור קשר או לקבל מידע לאחרים, לדוגמה: לאתר מסוים יש צוות "
+"ניהול או שזהו פורום עם מפקחים. קבוצות של משתמשים מוגדרות באמצעות כללים אותם "
+"ניתן לנהל ב<a href=\"@roles\">עמוד הגדרת התפקידים</a>."
 
 #: pm_block_user/pm_block_user.module:97
 msgid "More"
@@ -61,7 +69,7 @@ msgstr "אם לכותב יש תפקיד"
 
 #: pm_block_user/pm_block_user.module:328
 msgid "And the recipient has the role"
-msgstr ""
+msgstr "והמקבל הוא בתפקיד"
 
 #: pm_block_user/pm_block_user.module:329
 msgid "Action"
@@ -107,7 +115,7 @@ msgstr "מצטערים, אך כללי שליחת הודעות פרטיות או�
 
 #: pm_block_user/pm_block_user.module:537
 msgid "%name has chosen to not recieve any more messages from you."
-msgstr ""
+msgstr "בחירת המשתמש %name הנה שלא לקבל עוד הודעות ממך."
 
 #: pm_block_user/pm_block_user.module:567
 msgid "Unblock author"
@@ -131,7 +139,7 @@ msgstr "הגדרת כללים עבור אילו משתמשים יכולים לח
 
 #: pm_block_user/pm_block_user.module:53
 msgid "Javascript block actions form"
-msgstr ""
+msgstr "טופס חסימת פעולות ב־Javascript"
 
 #: pm_block_user/pm_block_user.info:0
 msgid "Allows users to block other users from sending them messages."

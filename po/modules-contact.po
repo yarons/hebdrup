@@ -6,19 +6,21 @@
 # contact.pages.inc,v 1.6.2.2 2009/04/27 14:48:21 goba
 # contact.module,v 1.103.2.1 2008/04/09 21:11:46 goba
 # Ddorda <ddorda@ubuntu.com>, 2010.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-07-19 18:21+0200\n"
-"PO-Revision-Date: 2010-11-18 15:58+0300\n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer\n"
+"PO-Revision-Date: 2011-06-08 23:37+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"X-Generator: Virtaal 0.7.0-beta5\n"
+"X-Project-Style: default\n"
 
 #: modules/contact/contact.admin.inc:18;47
 msgid "Recipients"
@@ -26,7 +28,7 @@ msgstr "נמענים"
 
 #: modules/contact/contact.admin.inc:43
 msgid "Example: 'website feedback' or 'product information'."
-msgstr "דוגמה: ״תגובה על האתר״ או ״מידע על מוצר״."
+msgstr "דוגמה: \"תגובה על האתר\" או \"מידע על מוצר\"."
 
 #: modules/contact/contact.admin.inc:49
 msgid "Example: 'webmaster@example.com' or 'sales@example.com,support@example.com'. To specify multiple recipients, separate each e-mail address with a comma."
@@ -47,10 +49,13 @@ msgstr ""
 #: modules/contact/contact.admin.inc:60
 msgid "When listing categories, those with lighter (smaller) weights get listed before categories with heavier (larger) weights. Categories with equal weights are sorted alphabetically."
 msgstr ""
+"בעת הצגת קטגוריות, אלו בעלת המשקל הנמוך (הקטנות) יותר יופיעו לפני הקטגוריות "
+"הכבדות (גדולות) יותר. קטגוריות בעלות משקל זהה מסודרת אלפביתית."
 
 #: modules/contact/contact.admin.inc:66
 msgid "Set this to <em>Yes</em> if you would like this category to be selected by default."
 msgstr ""
+"יש להגדיר אפשרות זאת ל<em>כן</em> אם ברצונך שקטגוריה זו תיבחר כבררת מחדל."
 
 #: modules/contact/contact.admin.inc:86
 msgid "You must enter one or more recipients."
@@ -58,7 +63,7 @@ msgstr "עליך להכניס נמען אחד או יותר."
 
 #: modules/contact/contact.admin.inc:92
 msgid "%recipient is an invalid e-mail address."
-msgstr "%recipient אינה כתובת דוא\"ל חוקית."
+msgstr "%recipient אינה כתובת דוא״ל חוקית."
 
 #: modules/contact/contact.admin.inc:114
 msgid "Category %category has been added."
@@ -87,6 +92,8 @@ msgstr "ניתן להשאיר הודעה בעזרת טופס יצירת הקשר
 #: modules/contact/contact.admin.inc:158
 msgid "Information to show on the <a href=\"@form\">contact page</a>. Can be anything from submission guidelines to your postal address or telephone number."
 msgstr ""
+"המידע שיוצג ב<a href=\"@form\">דף הקשר</a>. יכול להיות כל דבר החל מכללים "
+"לשליחה עד לכתובת הדואר או מספר הטלפון שלך."
 
 #: modules/contact/contact.admin.inc:161
 msgid "Hourly threshold"
@@ -149,12 +156,13 @@ msgstr "הודעתך נשלחה."
 #: modules/contact/contact.pages.inc:161
 msgid "You need to provide a valid e-mail address to contact other users. Please update your <a href=\"@url\">user information</a> and try again."
 msgstr ""
-"עליך לספק כתובת דוא\"ל זמינה כדי ליצור קשר עם משתמשים אחרים. אנא עדכנו את <a "
-"href=\"@url\">פרטי המשתמש</a> ונסו שנית."
+"עליך לספק כתובת דוא״ל זמינה כדי ליצור קשר עם משתמשים אחרים. נא לעדכן את <a "
+"href=\"@url\">פרטי המשתמש</a> ולנסות שנית."
 
 #: modules/contact/contact.pages.inc:164
 msgid "You cannot contact more than %number users per hour. Please try again later."
-msgstr "לא ניתן ליצור קשר עם יותר מ־%number משתמשים בשעה. אנא נסו מאוחר יותר."
+msgstr ""
+"לא ניתן ליצור קשר עם יותר מ־%number משתמשים בשעה. נא לנסות שוב מאוחר יותר."
 
 #: modules/contact/contact.pages.inc:179
 msgid "From"
@@ -170,19 +178,32 @@ msgstr "ההודעה נשלחה."
 
 #: modules/contact/contact.pages.inc:146
 msgid "%name-from sent an e-mail regarding %category."
-msgstr "נשלח מכתב דוא״ל ע״י %name-from בנושא %category."
+msgstr "נשלחה הודעת דוא״ל מאת %name-from בנושא %category."
 
 #: modules/contact/contact.pages.inc:231
 msgid "%name-from sent %name-to an e-mail."
-msgstr "נשלח מכתב דוא״ל מאת %name-from אל %name-to"
+msgstr "נשלח הודעת דוא״ל מאת %name-from אל %name-to"
 
 #: modules/contact/contact.module:15
 msgid "The contact module facilitates communication via e-mail, by allowing your site's visitors to contact one another (personal contact forms), and by providing a simple way to direct messages to a set of administrator-defined recipients (the <a href=\"@contact\">contact page</a>). With either form, users specify a subject, write their message, and (optionally) have a copy of their message sent to their own e-mail address."
 msgstr ""
+"מודול יצירת הקשר מאפשר תקשורת באמצעות דוא״ל על ידי מתן האפשרות למבקרי האתר "
+"שלך ליצור קשר זה עם זה (טופסי יצירת קשר אישיים), ועל ידי מתן האפשרות לשליחת "
+"הודעות ישירות באופן פשוט למגוון נמענים שהוגדרו על ידי המתפעלים (<a "
+"href=\"@contact\">עמוד יצירת הקשר</a>). עם כל אחד מהטפסים, משתמשים יכולים "
+"לציין את נושא ההודעה, לכתוב את הודעתם וגם (לבחירתם) לקבל עותק של ההודעה שלהם "
+"לתיבת הדוא״ל האישית שלהם."
 
 #: modules/contact/contact.module:16
 msgid "Personal contact forms allow users to be contacted via e-mail, while keeping recipient e-mail addresses private. Users may enable or disable their personal contact forms by editing their <em>My account</em> page. If enabled, a <em>Contact</em> tab leading to their personal contact form is available on their user profile. Site administrators have access to all personal contact forms (even if they have been disabled). The <em>Contact</em> tab is only visible when viewing another user's profile (users do not see their own <em>Contact</em> tab)."
 msgstr ""
+"טופסי יצירת קשר אישיים מאפשרים ליצור קשר עם המשתמשים דרך דוא״ל תוך שמירת "
+"כתובת הדוא״ל של הנמען חסויה. משתמשים יכולים להפעיל או לנטרל את טופסי יצירת "
+"הקשר האישיים שלהם על ידי עריכת העמוד <em>החשבון שלי</em> שלהם. אם תכונה זו "
+"מופעלת, תופיע לשונית <em>יצירת קשר</em> שתוביל אל טופס יצירת הקשר האישי "
+"שלהם. מתפעלי האתר יכולים לגשת לכל טופסי יצירת הקשר האישיים (אפילו אם "
+"נוטרלו). הלשונית <em>יצירת קשר</em> מופיעה רק בעת צפייה בפרופילים של אחרים "
+"(משתמשים אינם יכולים לראות את הלשונית <em>יצירת קשר</em> העצמית שלהם."
 
 #: modules/contact/contact.module:17
 msgid "The <a href=\"@contact\">contact page</a> provides a simple form for visitors to leave comments, feedback, or other requests. Messages are routed by selecting a category from a list of administrator-defined options; each category has its own set of e-mail recipients. Common categories for a business site include, for example, \"Website feedback\" (messages are forwarded to web site administrators) and \"Product information\" (messages are forwarded to members of the sales department). The actual e-mail addresses defined within a category are not displayed. Only users in roles with the <em>access site-wide contact form</em> permission may access the <a href=\"@contact\">contact page</a>."
@@ -199,6 +220,8 @@ msgstr ""
 #: modules/contact/contact.module:20
 msgid "For more information, see the online handbook entry for <a href=\"@contact\">Contact module</a>."
 msgstr ""
+"למידע נוסף, ניתן לעיין ברשומה <a href=\"@contact\">מודול יצירת הקשר</a> במדריך "
+"המקוון."
 
 #: modules/contact/contact.module:23
 msgid "This page lets you set up <a href=\"@form\">your site-wide contact form</a>. To do so, add one or more categories. You can associate different recipients with each category to route e-mails to different people. For example, you can route website feedback to the webmaster and direct product information requests to the sales department. On the <a href=\"@settings\">settings page</a>, you can customize the information shown above the contact form. This can be useful to provide additional contact information such as your postal address and telephone number."
@@ -207,10 +230,14 @@ msgstr ""
 #: modules/contact/contact.module:25
 msgid "The menu item can be customized and configured only once the menu module has been <a href=\"@modules-page\">enabled</a>."
 msgstr ""
+"ניתן להתאים אישית ולהגדיר את פריט התפריט פעם אחת בלבד לאחר <a href"
+"=\"@modules-page\">הפעלת</a> המודול."
 
 #: modules/contact/contact.module:30
 msgid "The contact module also adds a <a href=\"@menu-settings\">menu item</a> (disabled by default) to the navigation block."
 msgstr ""
+"מודול יצירת הקשר מוסיף <a href=\"@menu-settings\">פריט בתפריט</a> (מנוטרל "
+"כבררת מחדל) לתיבת הניווט."
 
 #: modules/contact/contact.module:144
 msgid "Contact settings"
@@ -223,6 +250,10 @@ msgstr "טופס יצירת קשר אישי"
 #: modules/contact/contact.module:151
 msgid "Allow other users to contact you by e-mail via <a href=\"@url\">your personal contact form</a>. Note that while your e-mail address is not made public to other members of the community, privileged users such as site administrators are able to contact you even if you choose not to enable this feature."
 msgstr ""
+"מתן האפשרות למשתמשים אחרים ליצור אתך קשר בדוא״ל דרך <a href=\"@url\">טופס "
+"יצירת הקשר האישי שלך</a>. עליך לשים לב שכתובת הדוא״ל שלך לא תופיע באופן "
+"ציבורי בפני משתמשים אחרים בקהילה, משתמשים בעלי דרג גבוה כגון מתפעלי האתר "
+"יכולים ליצור אתך קשר גם אם תבחר שלא להפעיל תכונה זו."
 
 #: modules/contact/contact.module:172;178
 msgid "[!category] !subject"
@@ -230,15 +261,17 @@ msgstr "[!category] !subject"
 
 #: modules/contact/contact.module:173
 msgid "!name sent a message using the contact form at !form."
-msgstr ""
+msgstr "נשלחה אליך הודעה מאת !name באמצעות טופס יצירת הקשר שלך בכתובת !form."
 
 #: modules/contact/contact.module:187
 msgid "!name (!name-url) has sent you a message via your contact form (!form-url) at !site."
 msgstr ""
+"נשלחה אליך הודעה מאת !name‏ (!name-url) דרך טופס יצירת הקשר שלך (!form-url) "
+"באתר !site."
 
 #: modules/contact/contact.module:188
 msgid "If you don't want to receive such e-mails, you can change your settings at !url."
-msgstr "אם אינך רוצה לקבל דוא\"ל מסוג זה, ניתן לשנות את ההגדרות ב־!url."
+msgstr "אם אינך רוצה לקבל דוא״ל מסוג זה, ניתן לשנות את ההגדרות ב־!url."
 
 #: modules/contact/contact.module:189
 msgid "Message:"
@@ -246,11 +279,11 @@ msgstr "הודעה:"
 
 #: modules/contact/contact.module:39
 msgid "access site-wide contact form"
-msgstr ""
+msgstr "גישה לטופס יצירת הקשר הכללי לאתר"
 
 #: modules/contact/contact.module:39
 msgid "administer site-wide contact form"
-msgstr ""
+msgstr "תפעול טופס יצירת הקשר הכללי לאתר"
 
 #: modules/contact/contact.module:46
 msgid "Contact form"
@@ -258,7 +291,7 @@ msgstr "טופס יצירת קשר"
 
 #: modules/contact/contact.module:47
 msgid "Create a system contact form and set up categories for the form to use."
-msgstr ""
+msgstr "יצירת טופס יצירת קשר למערכת והגדרת קטגוריות לשימוש בטופס"
 
 #: modules/contact/contact.module:68
 msgid "Edit contact category"

@@ -1,17 +1,21 @@
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: Private Message - Drupal\n"
 "POT-Creation-Date: 2009-11-06 14:23+0100\n"
-"PO-Revision-Date: \n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer Project <ddorda@gmail.com>\n"
+"PO-Revision-Date: 2011-06-08 11:52+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
+"Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=2; plural= (n!=1);\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Virtaal 0.7.0-beta5\n"
 "X-Poedit-Language: Hebrew\n"
 "X-Poedit-Country: ISRAEL\n"
 "X-Poedit-SourceCharset: utf-8\n"
+"X-Project-Style: default\n"
 
 #: privatemsg.api.php:346
 msgid "My link"
@@ -23,7 +27,7 @@ msgstr "שליחת הודעה פרטית"
 
 #: privatemsg.author-pane.inc:18
 msgid "Send PM"
-msgstr "שליחת ה\"פ"
+msgstr "שליחת ה״פ"
 
 #: privatemsg.theme.inc:167
 #: privatemsg.module:791
@@ -106,15 +110,15 @@ msgstr "כברירת מחדל, הודעות שנמחקות הן רק מוסתר�
 
 #: privatemsg.module:384
 msgid "Enable the flushing of deleted messages. Requires that cron is enabled"
-msgstr ""
+msgstr "הפעלת מחיקה גורפת של ההודעות שנמחקו. הפעולה דורשת ש־cron יהיה פעיל"
 
 #: privatemsg.module:389
 msgid "Flush messages after they have been deleted for more days than"
-msgstr ""
+msgstr "מחיקה גורפת של הודעות לאחר שהן נמחקו לפני יותר מספר זה של ימים"
 
 #: privatemsg.module:396
 msgid "Maximum number of messages to flush per cron run"
-msgstr ""
+msgstr "כמות ההודעות המרבית למחיקה גורפת בכל הפעלה של cron"
 
 #: privatemsg.module:403
 msgid "Configure listings"
@@ -127,6 +131,8 @@ msgstr "הגדרת שדות"
 #: privatemsg.module:411
 msgid "Select which columns/fields should be displayed in the message listings. Subject and Last updated cannot be disabled."
 msgstr ""
+"בחירה אילו עמודות/שדות יוצגו בהצגת ההודעות. לא ניתן לבטל את \"נושא\" ואת "
+"\"עדכון אחרון\"."
 
 #: privatemsg.module:512;140
 msgid "Delete message"
@@ -139,6 +145,7 @@ msgstr "אין לך את ההרשאות מתאימות לקריאת הודעות
 #: privatemsg.module:682
 msgid "This conversation is being viewed with escalated priviledges and may not be the same as shown to normal users."
 msgstr ""
+"דיון זה מוצג עם הרשאות גבוהות ויתכן שאינו יוצג באותו האופן למשתמשים רגילים."
 
 #: privatemsg.module:752
 msgid "Write new message to %recipient"
@@ -394,4 +401,3 @@ msgstr "לא ניתן לבטל פעולה זו."
 #: privatemsg_filter/privatemsg_filter.admin.inc:157
 msgid "Delete"
 msgstr "מחיקה"
-

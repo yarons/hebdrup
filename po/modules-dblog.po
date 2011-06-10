@@ -5,27 +5,31 @@
 # dblog.admin.inc,v 1.6.2.1 2008/09/17 05:47:53 goba
 # dblog.module,v 1.21.2.2 2008/04/09 21:11:46 goba
 # Ddorda <ddorda@ubuntu.com>, 2010.
+# Yaron Shahrabani <sh.yaron@gmail.com>, 2011.
 msgid ""
 msgstr ""
 "Project-Id-Version: PROJECT VERSION\n"
 "POT-Creation-Date: 2009-07-19 18:21+0200\n"
-"PO-Revision-Date: 2010-11-03 15:09+0300\n"
-"Last-Translator: Ddorda <ddorda@ubuntu.com>\n"
-"Language-Team: Gezer\n"
+"PO-Revision-Date: 2011-06-10 08:31+0300\n"
+"Last-Translator: Yaron Shahrabani <sh.yaron@gmail.com>\n"
+"Language-Team: Gezer (Hebrew)\n"
 "Language: he\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Virtaal 0.5.2\n"
+"X-Generator: Virtaal 0.7.0-beta5\n"
+"X-Project-Style: default\n"
 
 #: modules/dblog/dblog.admin.inc:18
 msgid "Discard log entries above the following row limit"
-msgstr ""
+msgstr "התעלמות מרשומות ביומן מעל למגבלת השורות הבאה"
 
 #: modules/dblog/dblog.admin.inc:21
 msgid "The maximum number of rows to keep in the database log. Older entries will be automatically discarded. (Requires a correctly configured <a href=\"@cron\">cron maintenance task</a>.)"
 msgstr ""
+"מספר השורות המרבי שיישמר ביומן מסד הנתונים. רשומות ישנות יותר לא יופיעו "
+"באופן אוטומטי (דורש <a href=\"@cron\">משימת תחזוקה של cron</a> מוגדרת כראוי)."
 
 #: modules/dblog/dblog.admin.inc:91;119
 msgid "No log messages available."
@@ -41,7 +45,7 @@ msgstr "מיקום"
 
 #: modules/dblog/dblog.admin.inc:162;230
 msgid "Severity"
-msgstr ""
+msgstr "מידת החומרה"
 
 #: modules/dblog/dblog.admin.inc:270
 msgid "Filter log messages"
@@ -49,27 +53,44 @@ msgstr "סינון הודעות תיעוד"
 
 #: modules/dblog/dblog.admin.inc:307
 msgid "You must select something to filter by."
-msgstr ""
+msgstr "עליך לבחור משהו לסנן לפיו."
 
 #: modules/dblog/dblog.module:21
 msgid "The dblog module monitors your system, capturing system events in a log to be reviewed by an authorized individual at a later time. This is useful for site administrators who want a quick overview of activities on their site. The logs also record the sequence of events, so it can be useful for debugging site errors."
 msgstr ""
+"המודול dblog עוקב אחר המערכת שלך, לוכד אירועי מערכת ביומן לצורכי סקירה על "
+"ידי אדם המורשה לכך במועד מאוחר יותר. אפשרות זו שימושית למתפעלי אתרים "
+"המעוניינים לקבל סקירה מהירה על הפעילויות באתר שלהם. היומנים מקליטים גם את "
+"רצף האירועים, כך שמצב זה יכול לסייע לטפל בשגיאות באתר."
 
 #: modules/dblog/dblog.module:22
 msgid "The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. Administrators should check the dblog report on a regular basis to ensure their site is working properly."
 msgstr ""
+"היומן של dblog הוא פשוט רשימה של אירועים מוקלטים המכילים נתוני שימוש, נתוני "
+"ביצועים, שגיאות, אזהרות ומידע תפעולי. מתפעלים אמורים לבדוק את הדוח של dblog "
+"על בסיס קבוע כדי לוודא שהאתר שלהם פועל כראוי."
 
 #: modules/dblog/dblog.module:23
 msgid "For more information, see the online handbook entry for <a href=\"@dblog\">Dblog module</a>."
 msgstr ""
+"לפרטים נוספים, יש לעיין ברשומה על <a href=\"@dblog\">מודול ה־Dblog</a> בספר "
+"ההדרכה המקוון."
 
 #: modules/dblog/dblog.module:26
 msgid "The dblog module monitors your website, capturing system events in a log to be reviewed by an authorized individual at a later time. The dblog log is simply a list of recorded events containing usage data, performance data, errors, warnings and operational information. It is vital to check the dblog report on a regular basis as it is often the only way to tell what is going on."
 msgstr ""
+"המודול dblog עוקב אחר המערכת שלך, לוכד אירועי מערכת ביומן לצורכי סקירה על "
+"ידי אדם המורשה לכך במועד מאוחר יותר. היומן של dblog הוא פשוט רשימה של "
+"אירועים מוקלטים המכילים נתוני שימוש, נתוני ביצועים, שגיאות, אזהרות ומידע "
+"תפעולי. מומלץ לבדוק את דוח ה־dblog על בסיס קבוע כיוון שעל פי רוב זוהי הדרך "
+"היחידה לדעת מה קורה בפועל."
 
 #: modules/dblog/dblog.module:47
 msgid "Settings for logging to the Drupal database logs. This is the most common method for small to medium sites on shared hosting. The logs are viewable from the admin pages."
 msgstr ""
+"הגדרות לרישום ביומן מסד הנתונים של Drupal. זוהי השיטה הנפוצה ביותר לאתרים "
+"קטנים עד בינוניים המשתמשים באחסון שיתופי. היומנים ניתנים לצפייה דרך עמודי "
+"התפעול."
 
 #: modules/dblog/dblog.module:55
 msgid "Recent log entries"
@@ -81,15 +102,15 @@ msgstr "צפייה באירועים האחרונים שתועדו לאחרונה
 
 #: modules/dblog/dblog.module:63
 msgid "Top 'page not found' errors"
-msgstr ""
+msgstr "שגיאות 'העמוד לא נמצא' המובילות"
 
 #: modules/dblog/dblog.module:64
 msgid "View 'page not found' errors (404s)."
-msgstr ""
+msgstr "צפייה בשגיאות 'העמוד לא נמצא' (404)."
 
 #: modules/dblog/dblog.module:71
 msgid "Top 'access denied' errors"
-msgstr ""
+msgstr "שגיאות 'הגישה נדחתה' המובילות"
 
 #: modules/dblog/dblog.module:72
 msgid "View 'access denied' errors (403s)."
